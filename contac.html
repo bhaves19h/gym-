@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/style1.css">
+    <style>
+        /* Your existing styles */
+        /* Responsive styles (same as provided above) */
+    </style>
+</head>
+<body>
+    <div class="contact_us">
+        <div class="responsive-container-block container">
+            <form id="contactForm" action="http://localhost:3000/submit-form" method="POST">
+      <!--   <form class="form-box" action="/submit-form" method="POST">-->
+        
+          
+            <p class="text-blk contact-head">
+              Get in touch
+            </p>
+            <p class="text-blk contact-subhead">
+              Get in touch with us and our team and if you have any query then you can ask in the message box.
+            </p>
+            <div class="container-block form-wrapper">
+              <div class="responsive-container-block">
+                <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-4">
+                  <p class="text-blk input-title">
+                    First Name
+                  </p>
+                  <input class="input" id="FName" name="FName" required>
+
+                </div>
+                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                  <p class="text-blk input-title">
+                    Last Name
+                  </p>
+                  <input class="input" id="LName" name="LName" required>
+                </div>
+                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                  <p class="text-blk input-title">
+                    Email
+                  </p>
+                  <input class="input" id="Email" name="Email" required>
+                </div>
+                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                  <p class="text-blk input-title">
+                    Phone No.
+                  </p>
+                  <input class="input" id="Phone" name="Phone" required>
+                </div>
+                <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-4">
+                  <p class="text-blk input-title">
+                    Message
+                  </p>
+                  <textarea class="textinput" id="Message" name="Message" placeholder="Write your message..." required></textarea>
+                </div>
+              </div>
+             
+              <button type="submit" class="submit-btn">
+                Send Message
+              </button>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    <!---  <script src="server.js"></script> -->
+    
+</body>
+</html>
+
+<!--
+<div class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm" action="http://localhost:3000/submit-form" method="POST">
+        <div class="input-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="input-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <p id="status"></p>
+</div>
+
+</body>
+</html>
+-->
